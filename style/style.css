@@ -1,0 +1,233 @@
+html {
+  background-color: #674baf;
+}
+
+body {
+  margin: 0;
+}
+
+#body {
+  background-image: url(../images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  padding: 60px 0px 0px 75px;
+  margin: 0;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+#img-block {
+  width: 100%;
+  max-width: 709px;
+}
+
+#img-block img {
+  display: block;
+}
+
+#img-block .img-1 {
+  width: 211px;
+}
+
+#img-block .img-2 {
+  margin-top: 80px;
+  max-width: 709px;
+}
+
+#main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 55px;
+  padding-top: 145px;
+}
+
+#main-content h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+#main-content p {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 18px;
+  width: 83%;
+}
+
+#main-content #reg-button {
+  font-family: 'Open Sans', sans-serif;
+  color: #674baf;
+  background-color: white;
+  text-decoration: none;
+  padding: 10px 50px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.431);
+          box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.431);
+}
+
+#main-content #reg-button:hover {
+  color: white;
+  background-color: #e882e8;
+}
+
+#icons {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#icons a {
+  cursor: default;
+}
+
+.icon {
+  font-size: 30px;
+  border: solid 3px white;
+  border-radius: 50%;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  border: solid 3px #e882e8;
+  color: #e882e8;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: #e882e8;
+}
+
+.attribution a:hover {
+  color: #d82cd8;
+}
+
+/*
+MOBILE VERSION!!
+*/
+@media (max-width: 1100px) {
+  #body {
+    background-image: url(../images/bg-mobile.svg);
+    background-size: 720px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+    height: 100%;
+    margin: auto;
+    width: 720px;
+  }
+  #main-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+    width: 80%;
+    margin: auto;
+  }
+  #main-content p, #main-content h1 {
+    text-align: center;
+  }
+  #main-content #reg-button {
+    padding: 10px 80px;
+    margin: 30px;
+  }
+  #icons {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 100px 0 50px 0;
+  }
+  #icons a {
+    cursor: default;
+  }
+  .icon {
+    font-size: 25px;
+    border: solid 2px white;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .icon:hover {
+    border: solid 2px #e882e8;
+    color: #e882e8;
+  }
+  #img-block {
+    width: 80%;
+    max-width: 709px;
+    margin: auto;
+  }
+  #img-block img {
+    display: block;
+  }
+  #img-block .img-1 {
+    width: 240px;
+    padding-top: 90px;
+  }
+  #img-block .img-2 {
+    margin: 80px auto;
+    width: 100%;
+  }
+  .attribution {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
